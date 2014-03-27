@@ -1,0 +1,13 @@
+#! /usr/bin/env php
+<?php
+
+defined('DS') || define('DS', DIRECTORY_SEPARATOR);
+defined('ROOT') || define('ROOT', dirname(__FILE__));
+defined('GARNET') || define('GARNET', '${garnetbeans}');
+defined('APP') || define('APP', '${app}');
+
+require_once dirname(__FILE__).'/library/composer/vendor/autoload.php';
+use Garnet\Command\CLI;
+
+CLI::execute($argv);
+

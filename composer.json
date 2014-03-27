@@ -1,0 +1,11 @@
+{
+    "name": "app2641/garnet-beans",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Garnet": "src/"
+        }
+    }
+}
