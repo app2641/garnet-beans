@@ -3,8 +3,7 @@
 
 namespace Garnet\Model;
 
-use Garnet\Utility\Database\Helper,
-    Garnet\Utility\Registry;
+use Sapphire\Utility\Registry;
 
 abstract class AbstractModel
 {
@@ -20,20 +19,6 @@ abstract class AbstractModel
      * @var stdClass
      **/
     private $record;
-
-
-
-    /**
-     * コンストラクタ
-     *
-     * @return void
-     **/
-    public function __construct ()
-    {
-        // DB接続を確立する
-        $db = Helper::connection();
-        Registry::set('db', $db);
-    }
 
 
 

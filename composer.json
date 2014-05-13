@@ -1,8 +1,14 @@
 {
     "name": "app2641/garnet-beans",
     "require": {
-        "php": ">=5.3.3"
+        "php": ">=5.4",
+        "app2641/sapphire-beans": "*",
+        "app2641/emerald-beans": "*"
     },
+    "authors": [{
+        "name": "app2641",
+        "homepage": "http://app2641.com"
+    }],
     "autoload": {
         "psr-0": {
             "Garnet": "src/"
