@@ -11,7 +11,7 @@ abstract class AbstractQuery
     /**
      * @var Garnet\Beans\Model\Column\AbstractColumn
      **/
-    private $column;
+    protected $column;
 
 
 

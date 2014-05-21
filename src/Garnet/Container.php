@@ -31,6 +31,6 @@ class Container
      **/
     public function get ($class_name)
     {
-        return $this->factory->get($name);
+        return $this->factory->get($class_name);
     }
 }
